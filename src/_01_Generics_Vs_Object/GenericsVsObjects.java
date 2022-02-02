@@ -11,7 +11,7 @@ public class GenericsVsObjects {
          * Notice we have a compilation error. Why is this? Comment out that
          * line of code once you understand the error
          */
-        GenericsList<String> generics = new GenericsList<String>();
+    	GenericsList<String> generics = new GenericsList<String>();
         generics.add("Bob");
         generics.add("Anne");
         //generics.add(5);
